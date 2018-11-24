@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>FaceIt</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/blog-post.css" rel="stylesheet">
+ 
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">FaceIt</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="/home">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/profile">Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Explore</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/index2">Logout</a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+      <div class="row">
+
+        <!-- Post Content Column -->
+        <div class="col-lg-8">
+
+          <!-- Title -->
+
+            <button class="btn btn-primary">Add new post</button>
+            
+ 
+          <h1 class="mt-4">Building profile page</h1>
+
+          <!-- Author -->
+          <p class="lead">
+            by
+            <a href="profile">Apoorv Tomar</a>
+          </p>
+
+          <hr>
+
+          <!-- Date/Time -->
+          <p>Posted on April 8, 2018 at 1:33 PM</p>
+
+          <hr>
+
+          <!-- Preview Image -->
+
+          <hr>
+
+          <!-- Post Content -->
+          <p class="lead">Been trying to build new profile page, it will allow users to edit their profile, list their interests and hobbies.</p>
+
+          <p>Have a good day.</p>
+
+          <hr>
+
+          <!-- Title -->
+          <h1 class="mt-4">Incorporting Face search button</h1>
+
+          <!-- Author -->
+          <p class="lead">
+            by
+            <a href="profile">Apoorv Tomar</a>
+          </p>
+
+          <hr>
+
+          <!-- Date/Time -->
+          <p>Posted on April 8, 2018 at 10:12 AM</p>
+
+          <hr>
+
+          <!-- Preview Image -->
+
+          <hr>
+
+          <!-- Post Content -->
+          <p class="lead">Integrating the Face search module in the website. It will allow you to explore other user's profile</p>
+
+
+          <p>Have a good day.</p>
+
+          <hr>
+
+          <!-- Title -->
+          <h1 class="mt-4">First Post</h1>
+
+          <!-- Author -->
+          <p class="lead">
+            by
+            <a href="profile">Apoorv Tomar</a>
+          </p>
+
+          <hr>
+
+          <!-- Date/Time -->
+          <p>Posted on April 8, 2018 at 2:33 AM</p>
+
+          <hr>
+
+          <!-- Preview Image -->
+
+          <hr>
+
+          <!-- Post Content -->
+          <p class="lead">Hi there, this is the first post for this website.</p>
+
+
+          <p>Have a good day.</p>
+
+          <hr>
+
+          <!-- Comments Form -->
+          <div class="card my-4">
+            <h5 class="card-header">Leave a Comment:</h5>
+            <div class="card-body">
+              <form>
+                <div class="form-group">
+                  <textarea class="form-control" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+          </div>
+
+          <!-- Single Comment -->
+          <div class="media mb-4">
+            <img class="d-flex mr-3 rounded-circle" src="http://placehold.it/50x50" alt="">
+            <div class="media-body">
+              <h5 class="mt-0">Dummy User</h5>
+              Keep it Up! Awesome.
+            </div>
+          </div>
+
+          
+        </div>
+
+        <!-- Sidebar Widgets Column -->
+        <div class="col-md-4">
+          <!-- Search Widget -->
+          <div class="card my-4">
+            <h5 class="card-header">Search for new users</h5>
+            <div class="card-body">
+              <p>Upload face image</p>
+              <header class="jumbotron my-4">
+                <div id='camera'>
+                  <div id='placeholder'>
+                    <p>Your browser does not support a camera!</p>
+                  </div>
+                </div> 
+                <br>    
+                <button id='compare_image' class="btn btn-primary">Upload Current Camera Feed</button>     
+              </header>
+              <div class="input-group">
+                <input type="file" class="form-control" placeholder="Search for...">
+                <span class="input-group-btn">
+                  <button class="btn btn-secondary" type="button">Go!</button>
+                </span>
+              </div>
+              <div id='upload_status'></a></div>
+              <div id='upload_result'></div> 
+            </div>
+          </div>
+
+          <!-- Categories Widget -->
+          
+
+
+        </div>
+
+      </div>
+      <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; FaceIt 2018</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/faceapp.js" type="text/javascript"></script>
+    <script src='https://code.jquery.com/jquery-3.1.1.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment.min.js"></script>
+    <script src="js/jpeg_camera/jpeg_camera_with_dependencies.min.js" type="text/javascript"></script>
+  </body>
+
+</html>

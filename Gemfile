@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'aws-sdk'
+gem 'dotenv'
+gem 'sinatra'
+gem 'pg'
+gem 'activerecord'
+gem 'sinatra-activerecord'
