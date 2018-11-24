@@ -11,3 +11,8 @@ A social web platform with inbuilt face search engine which allows its users to 
 ## System Design
 
 ![alt text](https://raw.githubusercontent.com/apoorvt95/FaceIt/master/project.png)
+
+## Links to detailed reports
+
+Presentation - https://drive.google.com/file/d/1-ufydOfIR2-oXa9mQj9jLR-b2FCD5YY0/view?usp=sharing
+Final Project Report - https://drive.google.com/file/d/15tKh7HHHvsEAL_VX8DYNVy9TAHBVnjKP/view?usp=sharing
