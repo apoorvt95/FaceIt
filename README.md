@@ -4,6 +4,7 @@ A social web platform with inbuilt face search engine which allows its users to 
 ## Requirements
 
 * Ruby 2.4.0 or above
+* Sinatra library 2.0.0 or above
 * AngularJS
 * AWS Rekognition
 * MongoDB 3.4.1 or above
