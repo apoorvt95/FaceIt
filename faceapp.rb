@@ -9,8 +9,8 @@ Dotenv.load
 
 # Set up our AWS authentication for all calls in this app
 Aws.config.update({
-        :region => 'us-east-1',
-        :credentials => Aws::Credentials.new('AKIAI53NAZ7K4M3LRPLA','BO3n2goR1h0Jj4VWft7YEPzDYI5TpG1IupDuMY4g')
+        :region => '__________',
+        :credentials => Aws::Credentials.new('______','_________________')
     })
 
 # Default collection name
