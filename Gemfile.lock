@@ -30,7 +30,8 @@ GEM
     pg (1.0.0)
     pg (1.0.0-x64-mingw32)
     rack (1.6.5)
-    rack-protection (1.5.3)
+    rack-protection (>= 1.5.5)
+
       rack
     sinatra (1.4.8)
       rack (>= 1.6.11)
